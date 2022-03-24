@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/prebid/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/config"
 )
 
 func TestNewAdminServer(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/golang/snappy"
-	"github.com/prebid/prebid-cache/backends"
+	"github.com/aclrys/prebid-cache/backends"
 )
 
 // SnappyCompress runs snappy compression on data before saving it in the backend.

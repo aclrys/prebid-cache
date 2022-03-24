@@ -3,8 +3,8 @@ package metricstest
 import (
 	"time"
 
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/metrics"
 )
 
 const mockDuration time.Duration = time.Second

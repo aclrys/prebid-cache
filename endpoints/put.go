@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-cache/backends"
-	backendDecorators "github.com/prebid/prebid-cache/backends/decorators"
-	"github.com/prebid/prebid-cache/metrics"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/backends"
+	backendDecorators "github.com/aclrys/prebid-cache/backends/decorators"
+	"github.com/aclrys/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/utils"
 	"github.com/sirupsen/logrus"
 )
 

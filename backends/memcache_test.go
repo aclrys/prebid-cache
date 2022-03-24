@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/google/gomemcache/memcache"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/stretchr/testify/assert"

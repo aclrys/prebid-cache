@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/prebid/prebid-cache/backends"
-	"github.com/prebid/prebid-cache/metrics"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/backends"
+	"github.com/aclrys/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/utils"
 )
 
 type backendWithMetrics struct {

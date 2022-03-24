@@ -7,9 +7,9 @@ import (
 
 	as "github.com/aerospike/aerospike-client-go"
 	as_types "github.com/aerospike/aerospike-client-go/types"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/metrics/metricstest"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/metrics/metricstest"
+	"github.com/aclrys/prebid-cache/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 

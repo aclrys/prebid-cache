@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/prebid/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/config"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

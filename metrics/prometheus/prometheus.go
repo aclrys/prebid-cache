@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prebid/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/config"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

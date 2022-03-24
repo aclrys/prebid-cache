@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-cache/backends"
-	"github.com/prebid/prebid-cache/metrics/metricstest"
+	"github.com/aclrys/prebid-cache/backends"
+	"github.com/aclrys/prebid-cache/metrics/metricstest"
 	"github.com/sirupsen/logrus"
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/stretchr/testify/assert"

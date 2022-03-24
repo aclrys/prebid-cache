@@ -1,4 +1,4 @@
-module github.com/prebid/prebid-cache
+module github.com/aclrys/prebid-cache
 
 go 1.16
 

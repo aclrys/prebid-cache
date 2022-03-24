@@ -6,9 +6,9 @@ import (
 
 	as "github.com/aerospike/aerospike-client-go"
 	as_types "github.com/aerospike/aerospike-client-go/types"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/metrics"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/utils"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -3,9 +3,9 @@ package metrics
 import (
 	"time"
 
-	"github.com/prebid/prebid-cache/config"
-	influx "github.com/prebid/prebid-cache/metrics/influx"
-	prometheus "github.com/prebid/prebid-cache/metrics/prometheus"
+	"github.com/aclrys/prebid-cache/config"
+	influx "github.com/aclrys/prebid-cache/metrics/influx"
+	prometheus "github.com/aclrys/prebid-cache/metrics/prometheus"
 )
 
 // Metrics provides access to metric engines.

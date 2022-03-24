@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/gocql/gocql"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/utils"
 	log "github.com/sirupsen/logrus"
 )
 

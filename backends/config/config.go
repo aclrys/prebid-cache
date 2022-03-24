@@ -3,11 +3,11 @@ package config
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/prebid/prebid-cache/backends"
-	"github.com/prebid/prebid-cache/backends/decorators"
-	"github.com/prebid/prebid-cache/compression"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/backends"
+	"github.com/aclrys/prebid-cache/backends/decorators"
+	"github.com/aclrys/prebid-cache/compression"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/metrics"
 )
 
 func NewBackend(cfg config.Configuration, appMetrics *metrics.Metrics) backends.Backend {

@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-cache/backends"
-	"github.com/prebid/prebid-cache/metrics"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/backends"
+	"github.com/aclrys/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/utils"
 	log "github.com/sirupsen/logrus"
 )
 

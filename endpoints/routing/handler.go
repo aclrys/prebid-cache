@@ -7,10 +7,10 @@ import (
 	"github.com/didip/tollbooth/v6"
 	"github.com/didip/tollbooth/v6/limiter"
 	"github.com/julienschmidt/httprouter"
-	"github.com/prebid/prebid-cache/backends"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/endpoints"
-	"github.com/prebid/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/backends"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/endpoints"
+	"github.com/aclrys/prebid-cache/metrics"
 	"github.com/rs/cors"
 )
 

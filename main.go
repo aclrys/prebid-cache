@@ -5,11 +5,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	backendConfig "github.com/prebid/prebid-cache/backends/config"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/endpoints/routing"
-	"github.com/prebid/prebid-cache/metrics"
-	"github.com/prebid/prebid-cache/server"
+	backendConfig "github.com/aclrys/prebid-cache/backends/config"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/endpoints/routing"
+	"github.com/aclrys/prebid-cache/metrics"
+	"github.com/aclrys/prebid-cache/server"
 )
 
 const configFileName = "config"

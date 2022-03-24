@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prebid/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/config"
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/assert"

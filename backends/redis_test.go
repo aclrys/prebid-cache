@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/go-redis/redis"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/utils"
 	"github.com/stretchr/testify/assert"
 )
 

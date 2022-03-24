@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/utils"
 	log "github.com/sirupsen/logrus"
 )
 

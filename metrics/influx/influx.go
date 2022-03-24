@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prebid/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/config"
 	"github.com/rcrowley/go-metrics"
 	"github.com/sirupsen/logrus"
 	influxdb "github.com/vrischmann/go-metrics-influxdb"

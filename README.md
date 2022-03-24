@@ -12,8 +12,8 @@ Download and prepare Prebid Cache:
 
 ```
 cd YOUR_DIRECTORY
-git clone https://github.com/prebid/prebid-cache src/github.com/prebid/prebid-cache
-cd src/github.com/prebid/prebid-cache
+git clone https://github.com/aclrys/prebid-cache src/github.com/aclrys/prebid-cache
+cd src/github.com/aclrys/prebid-cache
 ```
 
 Run the automated tests:
@@ -363,9 +363,9 @@ export PBC_RATE_LIMITER_NUM_REQUESTS=150
 ### Docker
 
 Prebid Cache works in Docker out of the box. It comes with a Dockerfile that creates a container, downloads all dependencies, and instantly installs a working image for us to run Prebid Cache right away.
-Using the `docker build` command we specify an image name and the location of the folder where we cloned or downloaded Prebid Cache to create an image ready to run. If we cloned Prebid Cache in `~/go/src/github.com/prebid/prebid-cache`, then we could use the command that follows to create the image `prebid-cache`.
+Using the `docker build` command we specify an image name and the location of the folder where we cloned or downloaded Prebid Cache to create an image ready to run. If we cloned Prebid Cache in `~/go/src/github.com/aclrys/prebid-cache`, then we could use the command that follows to create the image `prebid-cache`.
 ```bash
-docker build -t prebid-cache ~/go/src/github.com/prebid/prebid-cache
+docker build -t prebid-cache ~/go/src/github.com/aclrys/prebid-cache
 ```
 We can run Prebid Cache using the newly created image:
 ```bash

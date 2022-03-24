@@ -13,9 +13,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/prebid/prebid-cache/config"
-	"github.com/prebid/prebid-cache/metrics"
-	localprometheus "github.com/prebid/prebid-cache/metrics/prometheus"
+	"github.com/aclrys/prebid-cache/config"
+	"github.com/aclrys/prebid-cache/metrics"
+	localprometheus "github.com/aclrys/prebid-cache/metrics/prometheus"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

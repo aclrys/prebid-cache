@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/prebid/prebid-cache/backends"
-	"github.com/prebid/prebid-cache/metrics/metricstest"
-	"github.com/prebid/prebid-cache/utils"
+	"github.com/aclrys/prebid-cache/backends"
+	"github.com/aclrys/prebid-cache/metrics/metricstest"
+	"github.com/aclrys/prebid-cache/utils"
 	"github.com/stretchr/testify/assert"
 )
 
